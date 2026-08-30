@@ -20,3 +20,5 @@ data/*
 !data/phantom.npy
 !data/tilt_angles_1_deg_tilt_axis.npy
 !data/tilt_series_1_deg_tilt_axis.npy
+!data/ducky_20mrad_500A-df_4.5A-hex_5e+04-dose.zip
+!data/ducky_20mrad_500A-df_4.5A-hex_5e+04-dose_positions.zip
