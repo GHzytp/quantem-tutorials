@@ -1,9 +1,22 @@
 .ipynb_checkpoints
-*.zip
-# *.npy
 .DS_Store
 dvlp_notebooks
 outputs/
 
 # GIT ignore .code-workspace
 *.code-workspace
+
+# Datasets are distributed separately rather than committed. Everything under data/ is
+# ignored, and the files below are the ones small enough to be tracked deliberately, so
+# adding a new one means adding a line here on purpose. Git does not apply ignore rules to
+# files it already tracks, so listing them is about `git add`, not about keeping them.
+data/*
+!data/8rqb.pdb1
+!data/PbSe_cubic_mp-2201.cif
+!data/cameraman.npy
+!data/colourmaptest.tif
+!data/ducky_coords.mat
+!data/ducky_251105_20mrad_500A-df_4A-step_5e+04-dose_clean.zip
+!data/phantom.npy
+!data/tilt_angles_1_deg_tilt_axis.npy
+!data/tilt_series_1_deg_tilt_axis.npy
